@@ -3,10 +3,7 @@ import "./intro.css";
 import { FaAward } from "react-icons/fa";
 import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
-import img from '../../assets/Me.png'
-
-// import ME from '../../assets/Rasif Tagizade image.jpg';
-
+import img from "../../assets/Me.jpg";
 
 const Intro = () => {
   return (
@@ -24,7 +21,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5 year</small>
+              <small>3 Months</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -33,14 +30,10 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+            I'm Manish Kumar, a BCA student and full-stack developer who loves
+            working with MERN stack, Java, React, and real-time applications. I
+            focus on writing clean code, building practical projects, and
+            improving problem-solving skills every day.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
